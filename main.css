@@ -33,3 +33,9 @@ ol li {
 ol li::before {
     content: '-';
 }
+
+.block-1 p:first-letter {
+    color: #e80a0a;
+    font-weight: bold;
+    font-size: 24px;
+}
