@@ -54,3 +54,17 @@ margin-top: 20px;
 .block-3::selection, .block-3 span::selection, .block-3 img::selection {
     background: #08be08;
 }
+
+.block-4 span::before {
+    font-size: 24px;
+    font-style: oblique;
+    content: 'Начало: ';
+    color: #d90d0d;
+}
+
+.block-4 span::after {
+    font-size: 24px;
+    font-style: oblique;
+    content: ':конец!';
+    color: #09a809;
+}
