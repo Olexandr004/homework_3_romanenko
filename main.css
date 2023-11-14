@@ -68,3 +68,15 @@ margin-top: 20px;
     content: ':конец!';
     color: #09a809;
 }
+
+.block-4 li:not(:first-child) {
+    color: #175ad2;
+}
+
+.block-4 li:nth-child(3n) {
+    color: #c414c4;
+}
+
+.block-4 li:nth-child(2) {
+    color: #08be08;
+}
