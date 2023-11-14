@@ -80,3 +80,17 @@ margin-top: 20px;
 .block-4 li:nth-child(2) {
     color: #08be08;
 }
+
+footer {
+    background: #3b78e8;
+    margin: 50px 0;
+    text-align: center;
+}
+
+a:active {
+    color: #0e880e;
+}
+
+a:hover {
+    color: #4c0888;
+}
