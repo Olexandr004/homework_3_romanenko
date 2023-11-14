@@ -38,4 +38,10 @@ ol li::before {
     color: #e80a0a;
     font-weight: bold;
     font-size: 24px;
+    font-style: oblique;
+}
+
+.block-2:first-line {
+    color: red;
+    font-style: oblique;
 }
