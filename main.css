@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+body {
+    padding: 0 20%;
+    font-size: 16px;
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    min-width: 320px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ol li {
+    list-style-type: none;
+}
+
+ol li::before {
+    content: '-';
+}
